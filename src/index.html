@@ -13,15 +13,18 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
     <!--<![endif]-->
+    <!-- plugins -->
+    <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/settings.css" media="screen">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <!-- page css -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="main-wrapper">
         <header class="main-header">
-            <div class="container">
+            <div class="container navbar-fixed-top">
                 <div class="nav-wrapper pure-g" id="menu">
                     <div class="pure-u-1 pure-u-md-1-2">
                         <div class="pure-menu">
@@ -44,8 +47,62 @@
                 </div>
             </div>
         </header>
+
+        <!-- banner -->
+        <section class="bannercontainer">
+            <div class="fullscreenbanner-container">
+                <div class="fullscreenbanner">
+                    <ul>
+                        <li data-transition="parallaxvertical" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                            <img src="assets/images/index/slider/slider-01.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                            <div class="slider-caption container">
+                              <div class="tp-caption rs-caption-1 sft start"
+                                data-hoffset="0"
+                                data-y="270"
+                                data-speed="800"
+                                data-start="1000"
+                                data-easing="Back.easeInOut"
+                                data-endspeed="300">
+                                Discover The Most Amazing
+                                <span>Travel Template</span>
+                              </div>
+                              <div class="tp-caption rs-caption-2 sft"
+                                data-hoffset="0"
+                                data-y="400"
+                                data-speed="1000"
+                                data-start="1500"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="off">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud exercitation ullamco laboris nisi ualiquip ex consequat.
+                              </div>
+                              <div class="tp-caption rs-caption-3 sft"
+                                data-hoffset="0"
+                                data-y="485"
+                                data-speed="800"
+                                data-start="2000"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="off">
+                                <span class="page-scroll"><a target="_blank" href="#">Buy Now</a></span>
+                              </div>
+                            </div>
+                        </li>
+                        <li data-transition="parallaxvertical" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
+                            <img src="assets/images/index/slider/slider-02.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
 
+    <!-- javascripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>

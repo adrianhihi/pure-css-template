@@ -34,6 +34,13 @@ nav, section {
     position: relative;
 }
 
+.navbar-fixed-top {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+}
+
 .nav-wrapper {
     margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;

@@ -1,0 +1,194 @@
+/*=== 6.1 BANNER ===*/
+.static .bannercontainer {
+  margin-top: -95px;
+}
+
+.fullscreenbanner-container {
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+.fullscreenbanner-container .tp-bullets.preview4 {
+  opacity: 1 !important;
+  height: auto !important;
+}
+@media (min-width: 992px) {
+  .fullscreenbanner-container .tp-bullets.preview4 {
+    bottom: 30px !important;
+  }
+}
+.fullscreenbanner-container .tp-bullets.preview4 .bullet {
+  background: rgba(255, 255, 255, 0.5) !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: none !important;
+  width: 6px !important;
+  height: 6px !important;
+  border: 2px solid rgba(255, 255, 255, 0) !important;
+  display: inline-block;
+  margin-right: 14px !important;
+  margin-left: 0 !important;
+  margin-bottom: 0px !important;
+  -webkit-transition: background-color 0.2s, border-color 0.2s;
+  -moz-transition: background-color 0.2s, border-color 0.2s;
+  -ms-transition: background-color 0.2s, border-color 0.2s;
+  -o-transition: background-color 0.2s, border-color 0.2s;
+  transition: background-color 0.2s, border-color 0.2s;
+  float: none !important;
+}
+.fullscreenbanner-container .tp-bullets.preview4 .bullet:hover, .fullscreenbanner-container .tp-bullets.preview4 .bullet.selected {
+  box-shadow: none !important;
+  background: rgba(255, 255, 255, 0) !important;
+  width: 14px !important;
+  height: 14px !important;
+  border: 2px solid white !important;
+  margin-right: 10px !important;
+  margin-left: -4px !important;
+  margin-bottom: -3px !important;
+}
+.fullscreenbanner-container .tparrows.preview4 .tp-arr-iwrapper {
+  display: none !important;
+}
+
+.tp-bullets {
+  z-index: 99;
+}
+
+@media (min-width: 768px) {
+  .tparrows.preview4:hover:after {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+
+  .tp-leftarrow.preview4:hover:after {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+}
+.fullscreenbanner {
+  color: #ffffff;
+  width: 100%;
+  position: relative;
+}
+
+.tp-caption {
+  white-space: normal !important;
+  width: inherit;
+}
+@media (max-width: 767px) {
+  .tp-caption {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .tp-caption {
+    width: 85%;
+  }
+}
+@media (min-width: 992px) {
+  .tp-caption {
+    width: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  .tp-caption {
+    width: 65%;
+  }
+}
+
+.tp-caption.rs-caption-1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .tp-caption.rs-caption-1 {
+    font-size: 11px !important;
+    line-height: 17px !important;
+  }
+}
+@media (min-width: 768px) {
+  .tp-caption.rs-caption-1 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+}
+@media (min-width: 992px) {
+  .tp-caption.rs-caption-1 {
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .tp-caption.rs-caption-1 {
+    font-size: 30px !important;
+    line-height: 50px !important;
+  }
+}
+.tp-caption.rs-caption-1 span {
+  display: block;
+}
+@media (max-width: 767px) {
+  .tp-caption.rs-caption-1 span {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+}
+@media (min-width: 768px) {
+  .tp-caption.rs-caption-1 span {
+    font-size: 50px !important;
+    line-height: 40px !important;
+  }
+}
+@media (min-width: 992px) {
+  .tp-caption.rs-caption-1 span {
+    font-size: 64px !important;
+    line-height: 54px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .tp-caption.rs-caption-1 span {
+    font-size: 64px !important;
+    line-height: 54px !important;
+  }
+}
+
+.tp-caption.rs-caption-2 {
+  font-weight: 400;
+  display: none;
+}
+@media (min-width: 768px) {
+  .tp-caption.rs-caption-2 {
+    display: block;
+    font-size: 11px !important;
+    line-height: 17px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .tp-caption.rs-caption-2 {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+}
+
+.rs-caption-3 .btn {
+  width: 131px;
+}
+
+.fullscreenbanner .tp-dottedoverlay.twoxtwo {
+  background: rgba(0, 0, 0, 0.15);
+  background-image: none !important;
+  z-index: 1;
+}
+
+.tparrows.preview4 {
+  width: 85px;
+  height: 85px;
+}
+
+.tparrows.preview4:after {
+  line-height: 85px;
+  width: 85px;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
