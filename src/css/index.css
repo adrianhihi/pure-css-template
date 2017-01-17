@@ -9,7 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 21px;
-    color: #969696;
+    color: white;
     font-weight: 400;
     background-color: whitesmoke;
 }
@@ -152,4 +152,13 @@ nav, section {
     .nav-toggle {
         display: block;
     }
+}
+
+.pure-menu-link {
+    color: white;
+}
+
+.pure-menu-link:hover {
+    color: #ff891e;
+    background-color: transparent;
 }
