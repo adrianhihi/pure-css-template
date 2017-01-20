@@ -1,3 +1,23 @@
 .icon-video {
   width: 60px;
 }
+
+.overlay-wrapper {
+  position: fixed;
+  z-index: 9000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(46, 61, 73, 0.95);
+}
+
+.overlay-content {
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  left: 10%;
+  top: 10%;
+  overflow: hidden;
+  background-color: white;
+}
