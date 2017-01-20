@@ -100,3 +100,33 @@
   color: #ff891e;
   background-color: transparent;
 }
+
+.pure-menu-item.active .pure-menu-link {
+  color: #ff891e;
+}
+
+.light-header {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+@media (max-width: 767px) {
+  .light-header {
+    height: 83px;
+  }
+}
+@media (min-width: 768px) {
+  .light-header {
+    height: 95px;
+  }
+}
+
+.light-header .pure-menu-link {
+  color: black;
+}

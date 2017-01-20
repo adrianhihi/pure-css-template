@@ -54,5 +54,17 @@ jQuery(document).ready(function () {
     fullScreenOffsetContainer: "",
     hideTimerBar:"on"
   });
+
+  // Change header on mouse scroll
+  var header = $(".navbar-fixed-top");
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 1) {
+      header.addClass("light-header");
+    } else {
+      header.removeClass("light-header");
+    };
+  });
 });
 
