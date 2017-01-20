@@ -66,5 +66,11 @@ jQuery(document).ready(function () {
       header.removeClass("light-header");
     };
   });
+
+  // Video player
+  $('#btnPlay').click(function (event) {
+    event.preventDefault();
+    // TODO: launch video player
+  });
 });
 
