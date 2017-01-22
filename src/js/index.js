@@ -70,7 +70,12 @@ jQuery(document).ready(function () {
   // Video player
   $('#btnPlay').click(function (event) {
     event.preventDefault();
-    // TODO: launch video player
+    $('#videoOverlay').show();
+  });
+
+  $('#videoOverlay').click(function () {
+    player.unload();
+    $('#videoOverlay').hide();
   });
 
   var iframe = document.querySelector('iframe');
