@@ -71,6 +71,24 @@ jQuery(document).ready(function () {
   $('#btnPlay').click(function (event) {
     event.preventDefault();
     $('#videoOverlay').show();
+    player.play().then(function() {
+      // the video was played
+    }).catch(function(error) {
+      switch (error.name) {
+        case 'PasswordError':
+          // the video is password-protected and the viewer needs to enter the
+          // password first
+          break;
+
+        case 'PrivacyError':
+          // the video is private
+          break;
+
+        default:
+          // some other error occurred
+          break;
+      }
+    });
   });
 
   $('#videoOverlay').click(function () {
